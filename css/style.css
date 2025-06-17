@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: rgb(174, 167, 241);
+  color: #333;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  background-color: #5c6bc0;
+  padding: 10px 0;
+  z-index: 999;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar ul li {
+  margin: 0 20px;
+}
+
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+  color: #c5cae9;
+}
+
+.preface, .content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.download-btn {
+  background-color: #5c6bc0;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.download-btn:hover {
+  background-color: #7986cb;
+}
